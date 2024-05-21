@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::Layout(~{::section})">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<section>
+    <h1>Welcome to CleanIt</h1>
+
+    <div>
+        <br>
+        <br>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img  th:src="@{/cleaning.jpg}" class="card-img-top" alt="clean">
+        <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

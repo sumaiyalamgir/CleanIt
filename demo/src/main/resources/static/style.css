@@ -1,0 +1,71 @@
+.my-navbar {
+    background-color: #343a40;
+    /* Change this to your desired color */
+}
+
+h1 {
+    text-align: center; /* Center text horizontally */
+    width: 100%; /* Ensure h1 takes the full width of its container */
+}
+.my-container {
+    height: 90%;
+    width: 97%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.my-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.my-container form {
+    width: 90%;
+    text-align: left; /* Aligns text to the left within the form */
+}
+
+.my-container form div {
+    text-align: left; /* Ensures text inside divs within the form is aligned left */
+}
+
+.my-container form .form-control {
+    width: 100%; /* Makes form controls take full width */
+}
+
+.mynav {
+    background-color: grey;
+    color: white;
+    font-size: 1.5em; /* Adjust the value as needed to make the text bigger */
+    padding: 10px;
+    text-align: center;
+    width:20%;
+    height:100vh;
+
+}
+
+.container {
+  width: 100%; /* Adjust this if the container has a specific width */
+  display: flex; /* Makes child elements flexible for positioning */
+}
+
+.left-div {
+  width: 15%;
+  background-color: grey; /* Optional for visualization */
+}
+
+.right-div {
+  padding: 10px;
+  margin: 0px 10px; /* Margin: top right bottom left */
+  flex: 1; /* Fills remaining space */
+  background-color: white;
+  align-items:center;
+  /* Optional for visualization */
+}
