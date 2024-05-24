@@ -20,4 +20,8 @@ public class CleanerService {
     public List<Cleaner> getAllCleaners() {
         return cleanerRepository.findAll();
     }
+
+    public void deleteCleanerById(int cleanerId) {
+        cleanerRepository.deleteById((long) cleanerId);
+    }
 }

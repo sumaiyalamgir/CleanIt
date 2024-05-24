@@ -1,5 +1,5 @@
 .my-navbar {
-    background-color: #343a40;
+    background-color: #7391dd;
     /* Change this to your desired color */
 }
 
@@ -41,7 +41,7 @@ h1 {
 }
 
 .mynav {
-    background-color: grey;
+    background-color: #81deff;
     color: white;
     font-size: 1.5em; /* Adjust the value as needed to make the text bigger */
     padding: 10px;
@@ -58,7 +58,7 @@ h1 {
 
 .left-div {
   width: 15%;
-  background-color: grey; /* Optional for visualization */
+  background-color: #81deff; /* Optional for visualization */
 }
 
 .right-div {

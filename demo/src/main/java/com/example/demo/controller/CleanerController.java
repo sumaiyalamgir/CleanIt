@@ -39,4 +39,11 @@ public class CleanerController {
         // Return the Thymeleaf template to display the list of cleaners
         return "cleanerlist";
     }
+
+
+    @PostMapping("/cleaners/delete/{id}")
+    public String deleteCleaner(@PathVariable("id") int cleanerId, Model model) {
+        cleanerService.deleteCleanerById(cleanerId);
+        return "redirect:/cleaners";
+    }
 }
